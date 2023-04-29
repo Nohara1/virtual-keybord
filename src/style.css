@@ -26,7 +26,7 @@
 }
 .main-keyboard{
     width: 60%;
-    height: 40%;
+    height: 45%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -38,7 +38,7 @@
     width: 98%;
     height: 54px;
     display: flex;
-    background-color: silver;
+   
     margin: 5px auto;
 }
 .keyboard--key{
@@ -49,6 +49,33 @@
     height: 48px;
     background-color: silver;
 }
-.backspace{
+.backspace,
+.caps,
+.shiftLeft{
+    background-color: black;
     width: 125px;
+}
+.tab,
+.del{
+    width: 70px;
+    background-color: black;
+}
+.enter,
+.shiftRight{
+    background-color: black;
+    width: 110px;
+}
+.arrowUp,
+.arrowDown,
+.arrowLeft,
+.arrowRight,
+.altLeft,
+.altRight,
+.win,
+.ctrlLeft,
+.ctrlRight{
+    background-color: black;
+}
+.space{
+    width: 500px;
 }

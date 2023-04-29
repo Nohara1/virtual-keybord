@@ -41,7 +41,113 @@ function addElement() {
   key13.className = 'keyboard--key equal';
   const key14 = document.createElement('div');
   key14.className = 'keyboard--key backspace';
+  const key15 = document.createElement('div');
+  key15.className = 'keyboard--key tab';
+  const key16 = document.createElement('div');
+  key16.className = 'keyboard--key q';
+  const key17 = document.createElement('div');
+  key17.className = 'keyboard--key w';
+  const key18 = document.createElement('div');
+  key18.className = 'keyboard--key e';
+  const key19 = document.createElement('div');
+  key19.className = 'keyboard--key r';
+  const key20 = document.createElement('div');
+  key20.className = 'keyboard--key t';
+  const key21 = document.createElement('div');
+  key21.className = 'keyboard--key y';
+  const key22 = document.createElement('div');
+  key22.className = 'keyboard--key u';
+  const key23 = document.createElement('div');
+  key23.className = 'keyboard--key i';
+  const key24 = document.createElement('div');
+  key24.className = 'keyboard--key o';
+  const key25 = document.createElement('div');
+  key25.className = 'keyboard--key p';
+  const key26 = document.createElement('div');
+  key26.className = 'keyboard--key caseLeft';
+  const key27 = document.createElement('div');
+  key27.className = 'keyboard--key caseRight';
+  const key28 = document.createElement('div');
+  key28.className = 'keyboard--key del';
+  const key29 = document.createElement('div');
+  key29.className = 'keyboard--key caps';
+  const key30 = document.createElement('div');
+  key30.className = 'keyboard--key a';
+  const key31 = document.createElement('div');
+  key31.className = 'keyboard--key s';
+  const key32 = document.createElement('div');
+  key32.className = 'keyboard--key d';
+  const key33 = document.createElement('div');
+  key33.className = 'keyboard--key f';
+  const key34 = document.createElement('div');
+  key34.className = 'keyboard--key g';
+  const key35 = document.createElement('div');
+  key35.className = 'keyboard--key h';
+  const key36 = document.createElement('div');
+  key36.className = 'keyboard--key j';
+  const key37 = document.createElement('div');
+  key37.className = 'keyboard--key k';
+  const key38 = document.createElement('div');
+  key38.className = 'keyboard--key l';
+  const key39 = document.createElement('div');
+  key39.className = 'keyboard--key semicolon';
+  const key40 = document.createElement('div');
+  key40.className = 'keyboard--key quote';
+  const key41 = document.createElement('div');
+  key41.className = 'keyboard--key enter';
+  const key42 = document.createElement('div');
+  key42.className = 'keyboard--key shiftLeft';
+  const key43 = document.createElement('div');
+  key43.className = 'keyboard--key z';
+  const key44 = document.createElement('div');
+  key44.className = 'keyboard--key x';
+  const key45 = document.createElement('div');
+  key45.className = 'keyboard--key c';
+  const key46 = document.createElement('div');
+  key46.className = 'keyboard--key v';
+  const key47 = document.createElement('div');
+  key47.className = 'keyboard--key b';
+  const key48 = document.createElement('div');
+  key48.className = 'keyboard--key n';
+  const key49 = document.createElement('div');
+  key49.className = 'keyboard--key m';
+  const key50 = document.createElement('div');
+  key50.className = 'keyboard--key comma';
+  const key51 = document.createElement('div');
+  key51.className = 'keyboard--key period';
+  const key52 = document.createElement('div');
+  key52.className = 'keyboard--key slash';
+  const key53 = document.createElement('div');
+  key53.className = 'keyboard--key arrowUp';
+  const key54 = document.createElement('div');
+  key54.className = 'keyboard--key shiftRight';
+  const key55 = document.createElement('div');
+  key55.className = 'keyboard--key ctrlLeft';
+  const key56 = document.createElement('div');
+  key56.className = 'keyboard--key win';
+  const key57 = document.createElement('div');
+  key57.className = 'keyboard--key altLeft';
+  const key58 = document.createElement('div');
+  key58.className = 'keyboard--key space';
+  const key59 = document.createElement('div');
+  key59.className = 'keyboard--key altRight';
+  const key60 = document.createElement('div');
+  key60.className = 'keyboard--key arrowLeft';
+  const key61 = document.createElement('div');
+  key61.className = 'keyboard--key arrowDown';
+  const key62 = document.createElement('div');
+  key62.className = 'keyboard--key arrowRight';
+  const key63 = document.createElement('div');
+  key63.className = 'keyboard--key ctrlRight';
 
+  const keys5 = [key55,key56,key57,key58,
+    key59,key60,key61,key62,key63,];
+  const keys4 = [key42,key43,key44,key45,key46,key47,key48,
+    key49,key50,key51,key52,key53,key54];
+  const keys3 = [key29,key30,key31,key32,key33,key34,key35,
+    key36,key37,key38,key39,key40,key41];
+  const keys2 = [key15,key16,key17,key18,key19,key20,key21,
+    key22,key23,key24,key25,key26,key27,key28];
   const keys = [key1, key2, key3, key4, key5, key6, key7,
     key8, key9, key10, key11, key12, key13, key14];
   const rows = [row1, row2, row3, row4, row5];
@@ -79,12 +185,69 @@ function addElement() {
   rows[0].appendChild(keys[12]);
   rows[0].appendChild(keys[13]);
   keyboard.appendChild(rows[1]);
+  rows[1].appendChild(keys2[0]);
+  rows[1].appendChild(keys2[1]);
+  rows[1].appendChild(keys2[2]);
+  rows[1].appendChild(keys2[3]);
+  rows[1].appendChild(keys2[4]);
+  rows[1].appendChild(keys2[5]);
+  rows[1].appendChild(keys2[6]);
+  rows[1].appendChild(keys2[7]);
+  rows[1].appendChild(keys2[8]);
+  rows[1].appendChild(keys2[9]);
+  rows[1].appendChild(keys2[10]);
+  rows[1].appendChild(keys2[11]);
+  rows[1].appendChild(keys2[12]);
+  rows[1].appendChild(keys2[13]);
   keyboard.appendChild(rows[2]);
+  rows[2].appendChild(keys3[0]);
+  rows[2].appendChild(keys3[1]);
+  rows[2].appendChild(keys3[2]);
+  rows[2].appendChild(keys3[3]);
+  rows[2].appendChild(keys3[4]);
+  rows[2].appendChild(keys3[5]);
+  rows[2].appendChild(keys3[6]);
+  rows[2].appendChild(keys3[7]);
+  rows[2].appendChild(keys3[8]);
+  rows[2].appendChild(keys3[9]);
+  rows[2].appendChild(keys3[10]);
+  rows[2].appendChild(keys3[11]);
+  rows[2].appendChild(keys3[12]);
   keyboard.appendChild(rows[3]);
+  rows[3].appendChild(keys4[0]);
+  rows[3].appendChild(keys4[1]);
+  rows[3].appendChild(keys4[2]);
+  rows[3].appendChild(keys4[3]);
+  rows[3].appendChild(keys4[4]);
+  rows[3].appendChild(keys4[5]);
+  rows[3].appendChild(keys4[6]);
+  rows[3].appendChild(keys4[7]);
+  rows[3].appendChild(keys4[8]);
+  rows[3].appendChild(keys4[9]);
+  rows[3].appendChild(keys4[10]);
+  rows[3].appendChild(keys4[11]);
+  rows[3].appendChild(keys4[12]);
   keyboard.appendChild(rows[4]);
-  // const rowFirst = document.createElement('div');
-  // rowFirst.className = 'row'
-  // keyboard.appendChild(rowFirst);
+  rows[4].appendChild(keys5[0]);
+  rows[4].appendChild(keys5[1]);
+  rows[4].appendChild(keys5[2]);
+  rows[4].appendChild(keys5[3]);
+  rows[4].appendChild(keys5[4]);
+  rows[4].appendChild(keys5[5]);
+  rows[4].appendChild(keys5[6]);
+  rows[4].appendChild(keys5[7]);
+  rows[4].appendChild(keys5[8]);
+ 
+document.addEventListener('keydown', (event) =>{
+  if(event.key === "a"){
+    textArea.appendChild(document.createTextNode('a'));
+  };
+  if(event.key === "Backspace"){
+    textArea.removeChild(textArea.lastChild);
+  }
+    
+  });
+
 
   mainTittle.innerText = 'RSS Virtual KeyBoard';
 }
