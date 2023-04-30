@@ -17,6 +17,8 @@
     display: flex;
 }
 .main-area{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
     width: 60%;
     height: 40%;
     display: flex;
@@ -38,14 +40,12 @@
     width: 98%;
     height: 54px;
     display: flex;
-   
     margin: 5px auto;
 }
 .keyboard--key{
     display: flex;
     text-align: center;
     justify-content: center;
-    border: 2px solid black;
     border-radius: 10px;
     margin-left: 5px;
     width: 54px;
@@ -101,3 +101,14 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+.keyUp{
+    transition: 0.5s;
+    background-color: #85c9d3;
+    border-radius: 100px;
+}
+/* .keyboard--key :hover{
+    background-color: #85c9d3;
+    transition: 0.1s;
+    background-color: #85c9d3;
+    border-radius: 10px;
+} */

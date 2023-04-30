@@ -405,6 +405,29 @@ key63.appendChild(ctrlR);
     key8, key9, key10, key11, key12, key13, key14];
   const rows = [row1, row2, row3, row4, row5];
 
+  
+  for(let i = 0; i < keys.length; i++){
+  keys[i].addEventListener('mouseover', () =>{
+    keys[i].classList.add('keyUp')
+  });
+};
+for(let i = 0; i < keys.length; i++){
+  keys[i].addEventListener('mouseout', () =>{
+    keys[i].classList.remove('keyUp')
+  });
+};
+for(let i = 0; i < keys2.length; i++){
+  keys2[i].addEventListener('mouseover', () =>{
+    keys2[i].classList.add('keyUp')
+  });
+};
+for(let i = 0; i < keys2.length; i++){
+  keys2[i].addEventListener('mouseout', () =>{
+    keys2[i].classList.remove('keyUp')
+  });
+};
+
+
   const main = document.createElement('div');
   const mainTittle = document.createElement('p');
   const textArea = document.createElement('textarea');
@@ -495,6 +518,513 @@ document.addEventListener('keydown', (event) =>{
   if(event.key === "a"){
     textArea.appendChild(document.createTextNode('a'));
   };
+  if(event.key === "1"){
+    textArea.appendChild(document.createTextNode('1'));
+  };
+  if(event.key === "2"){
+    textArea.appendChild(document.createTextNode('2'));
+  };
+  if(event.key === "3"){
+    textArea.appendChild(document.createTextNode('3'));
+  };
+  if(event.key === "4"){
+    textArea.appendChild(document.createTextNode('4'));
+  };
+  if(event.key === "6"){
+    textArea.appendChild(document.createTextNode('6'));
+  };
+  if(event.key === "7"){
+    textArea.appendChild(document.createTextNode('7'));
+  };
+  if(event.key === "8"){
+    textArea.appendChild(document.createTextNode('8'));
+  };
+  if(event.key === "9"){
+    textArea.appendChild(document.createTextNode('9'));
+  };
+  if(event.key === "0"){
+    textArea.appendChild(document.createTextNode('0'));
+  };
+  if(event.key === "-"){
+    textArea.appendChild(document.createTextNode('-'));
+  };
+  if(event.key === "="){
+    textArea.appendChild(document.createTextNode('='));
+  };
+  if(event.key === "q"){
+    textArea.appendChild(document.createTextNode('q'));
+  };
+  if(event.key === "w"){
+    textArea.appendChild(document.createTextNode('w'));
+  };
+  if(event.key === "e"){
+    textArea.appendChild(document.createTextNode('e'));
+  };
+  if(event.key === "r"){
+    textArea.appendChild(document.createTextNode('r'));
+  };
+  if(event.key === "t"){
+    textArea.appendChild(document.createTextNode('t'));
+  };
+  if(event.key === "y"){
+    textArea.appendChild(document.createTextNode('y'));
+  };
+  if(event.key === "u"){
+    textArea.appendChild(document.createTextNode('u'));
+  };
+  if(event.key === "i"){
+    textArea.appendChild(document.createTextNode('i'));
+  };
+  if(event.key === "o"){
+    textArea.appendChild(document.createTextNode('o'));
+  };
+  if(event.key === "p"){
+    textArea.appendChild(document.createTextNode('p'));
+  };
+  if(event.key === "["){
+    textArea.appendChild(document.createTextNode('['));
+  };
+  if(event.key === "]"){
+    textArea.appendChild(document.createTextNode(']'));
+  };
+  if(event.key === "s"){
+    textArea.appendChild(document.createTextNode('s'));
+  };
+  if(event.key === "d"){
+    textArea.appendChild(document.createTextNode('s'));
+  };
+  if(event.key === "f"){
+    textArea.appendChild(document.createTextNode('f'));
+  };
+  if(event.key === "g"){
+    textArea.appendChild(document.createTextNode('g'));
+  };
+  if(event.key === "h"){
+    textArea.appendChild(document.createTextNode('h'));
+  };
+  if(event.key === "j"){
+    textArea.appendChild(document.createTextNode('j'));
+  };
+  if(event.key === "k"){
+    textArea.appendChild(document.createTextNode('k'));
+  };
+  if(event.key === "l"){
+    textArea.appendChild(document.createTextNode('l'));
+  };
+  if(event.key === ";"){
+    textArea.appendChild(document.createTextNode(';'));
+  };
+  if(event.key === "'"){
+    textArea.appendChild(document.createTextNode("'"));
+  };
+  if(event.key === "z"){
+    textArea.appendChild(document.createTextNode("z"));
+  };
+  if(event.key === "x"){
+    textArea.appendChild(document.createTextNode("x"));
+  };
+  if(event.key === "c"){
+    textArea.appendChild(document.createTextNode("c"));
+  };
+  if(event.key === "v"){
+    textArea.appendChild(document.createTextNode("v"));
+  };
+  if(event.key === "b"){
+    textArea.appendChild(document.createTextNode("b"));
+  };
+  if(event.key === "n"){
+    textArea.appendChild(document.createTextNode("n"));
+  };
+  if(event.key === "m"){
+    textArea.appendChild(document.createTextNode("m"));
+  };
+  if(event.key === ","){
+    textArea.appendChild(document.createTextNode(","));
+  };
+  if(event.key === "."){
+    textArea.appendChild(document.createTextNode("."));
+  };
+  if(event.key === "/"){
+    textArea.appendChild(document.createTextNode("/"));
+  };
+
+  document.addEventListener('keydown', (event) =>{
+    if(event.key === "1"){
+      key2.classList.add('keyUp')
+    };
+    if(event.key === "2"){
+      key3.classList.add('keyUp')
+    };
+    if(event.key === "3"){
+      key4.classList.add('keyUp')
+    };
+    if(event.key === "4"){
+      key5.classList.add('keyUp')
+    };
+    if(event.key === "5"){
+      key6.classList.add('keyUp')
+    };
+    if(event.key === "6"){
+      key7.classList.add('keyUp')
+    };
+    if(event.key === "7"){
+      key8.classList.add('keyUp')
+    };
+    if(event.key === "8"){
+      key9.classList.add('keyUp')
+    };
+    if(event.key === "9"){
+      key10.classList.add('keyUp')
+    };
+    if(event.key === "0"){
+      key11.classList.add('keyUp')
+    };
+    if(event.key === "-"){
+      key12.classList.add('keyUp')
+    };
+    if(event.key === "="){
+      key13.classList.add('keyUp')
+    };
+    if(event.key === "Backspace"){
+      key14.classList.add('keyUp')
+    };
+    if(event.key === "Tab"){
+      key15.classList.add('keyUp')
+    };
+    if(event.key === "q"){
+      key16.classList.add('keyUp')
+    };
+    if(event.key === "w"){
+      key17.classList.add('keyUp')
+    };
+    if(event.key === "e"){
+      key18.classList.add('keyUp')
+    };
+    if(event.key === "r"){
+      key19.classList.add('keyUp')
+    };
+    if(event.key === "t"){
+      key20.classList.add('keyUp')
+    };
+    if(event.key === "y"){
+      key21.classList.add('keyUp')
+    };
+    if(event.key === "u"){
+      key22.classList.add('keyUp')
+    };
+    if(event.key === "i"){
+      key23.classList.add('keyUp')
+    };
+    if(event.key === "o"){
+      key24.classList.add('keyUp')
+    };
+    if(event.key === "p"){
+      key25.classList.add('keyUp')
+    };
+    if(event.key === "["){
+      key26.classList.add('keyUp')
+    };
+    if(event.key === "]"){
+      key27.classList.add('keyUp')
+    };
+    if(event.key === "CapsLock"){
+      key29.classList.add('keyUp')
+    };
+    if(event.key === "a"){
+      key30.classList.add('keyUp')
+    };
+    if(event.key === "s"){
+      key31.classList.add('keyUp')
+    };
+    if(event.key === "d"){
+      key32.classList.add('keyUp')
+    };
+    if(event.key === "f"){
+      key33.classList.add('keyUp')
+    };
+    if(event.key === "g"){
+      key34.classList.add('keyUp')
+    };
+    if(event.key === "h"){
+      key35.classList.add('keyUp')
+    };
+    if(event.key === "j"){
+      key36.classList.add('keyUp')
+    };
+    if(event.key === "k"){
+      key37.classList.add('keyUp')
+    };
+    if(event.key === "l"){
+      key38.classList.add('keyUp')
+    };
+    if(event.key === ";"){
+      key39.classList.add('keyUp')
+    };
+    if(event.key === "'"){
+      key40.classList.add('keyUp')
+    };
+    if(event.key === "Enter"){
+      key41.classList.add('keyUp')
+    };
+    if(event.code === "ShiftLeft"){
+      key42.classList.add('keyUp')
+    };
+    if(event.key === "z"){
+      key43.classList.add('keyUp')
+    };
+    if(event.key === "x"){
+      key44.classList.add('keyUp')
+    };
+    if(event.key === "c"){
+      key45.classList.add('keyUp')
+    };
+    if(event.key === "v"){
+      key46.classList.add('keyUp')
+    };
+    if(event.key === "b"){
+      key47.classList.add('keyUp')
+    };
+    if(event.key === "n"){
+      key48.classList.add('keyUp')
+    };
+    if(event.key === "m"){
+      key49.classList.add('keyUp')
+    };
+    if(event.key === ","){
+      key50.classList.add('keyUp')
+    };
+    if(event.key === "."){
+      key51.classList.add('keyUp')
+    };
+    if(event.key === "/"){
+      key52.classList.add('keyUp')
+    };
+    if(event.key === "ArrowUp"){
+      key53.classList.add('keyUp')
+    };
+    if(event.code === "ShiftRight"){
+      key54.classList.add('keyUp')
+    };
+    if(event.code === "ControlLeft"){
+      key55.classList.add('keyUp')
+    };
+    if(event.code === "MetaLeft"){
+      key56.classList.add('keyUp')
+    };
+    if(event.code === "AltLeft"){
+      key57.classList.add('keyUp')
+    };
+    if(event.code === "Space"){
+      key58.classList.add('keyUp')
+    };
+    if(event.code === "AltRight"){
+      key59.classList.add('keyUp')
+    };
+    if(event.code === "ArrowLeft"){
+      key60.classList.add('keyUp')
+    };
+    if(event.code === "ArrowDown"){
+      key61.classList.add('keyUp')
+    };
+    if(event.code === "ArrowRight"){
+      key62.classList.add('keyUp')
+    };
+    if(event.code === "ControlRight"){
+      key63.classList.add('keyUp')
+    };
+
+
+
+
+
+
+
+    });
+    document.addEventListener('keyup', (event) =>{
+      if(event.key === "1"){
+        key2.classList.remove('keyUp')
+      };
+      if(event.key === "2"){
+        key3.classList.remove('keyUp')
+      };
+      if(event.key === "3"){
+        key4.classList.remove('keyUp')
+      };
+      if(event.key === "4"){
+        key5.classList.remove('keyUp')
+      };
+      if(event.key === "5"){
+        key6.classList.remove('keyUp')
+      };
+      if(event.key === "6"){
+        key7.classList.remove('keyUp')
+      };
+      if(event.key === "7"){
+        key8.classList.remove('keyUp')
+      };
+      if(event.key === "8"){
+        key9.classList.remove('keyUp')
+      };
+      if(event.key === "9"){
+        key10.classList.remove('keyUp')
+      };
+      if(event.key === "0"){
+        key11.classList.remove('keyUp')
+      };
+      if(event.key === "-"){
+        key12.classList.remove('keyUp')
+      };
+      if(event.key === "="){
+        key13.classList.remove('keyUp')
+      };
+      if(event.key === "Backspace"){
+        key14.classList.remove('keyUp')
+      };
+      if(event.key === "Tab"){
+        key15.classList.remove('keyUp')
+      };
+      if(event.key === "q"){
+        key16.classList.remove('keyUp')
+      };
+      if(event.key === "w"){
+        key17.classList.remove('keyUp')
+      };
+      if(event.key === "e"){
+        key18.classList.remove('keyUp')
+      };
+      if(event.key === "r"){
+        key19.classList.remove('keyUp')
+      };
+      if(event.key === "t"){
+        key20.classList.remove('keyUp')
+      };
+      if(event.key === "y"){
+        key21.classList.remove('keyUp')
+      };
+      if(event.key === "u"){
+        key22.classList.remove('keyUp')
+      };
+      if(event.key === "i"){
+        key23.classList.remove('keyUp')
+      };
+      if(event.key === "o"){
+        key24.classList.remove('keyUp')
+      };
+      if(event.key === "p"){
+        key25.classList.remove('keyUp')
+      };
+      if(event.key === "["){
+        key26.classList.remove('keyUp')
+      };
+      if(event.key === "]"){
+        key27.classList.remove('keyUp')
+      };
+      if(event.key === "a"){
+        key30.classList.remove('keyUp')
+      };
+      if(event.key === "s"){
+        key31.classList.remove('keyUp')
+      };
+      if(event.key === "d"){
+        key32.classList.remove('keyUp')
+      };
+      if(event.key === "f"){
+        key33.classList.remove('keyUp')
+      };
+      if(event.key === "g"){
+        key34.classList.remove('keyUp')
+      };
+      if(event.key === "h"){
+        key35.classList.remove('keyUp')
+      };
+      if(event.key === "j"){
+        key36.classList.remove('keyUp')
+      };
+      if(event.key === "k"){
+        key37.classList.remove('keyUp')
+      };
+      if(event.key === "l"){
+        key38.classList.remove('keyUp')
+      };
+      if(event.key === ";"){
+        key39.classList.remove('keyUp')
+      };
+      if(event.key === "'"){
+        key40.classList.remove('keyUp')
+      };
+      if(event.key === "Enter"){
+        key41.classList.remove('keyUp')
+      };
+      if(event.code === "ShiftLeft"){
+        key42.classList.remove('keyUp')
+      };
+      if(event.key === "z"){
+        key43.classList.remove('keyUp')
+      };
+      if(event.key === "x"){
+        key44.classList.remove('keyUp')
+      };
+      if(event.key === "c"){
+        key45.classList.remove('keyUp')
+      };
+      if(event.key === "v"){
+        key46.classList.remove('keyUp')
+      };
+      if(event.key === "b"){
+        key47.classList.remove('keyUp')
+      };
+      if(event.key === "n"){
+        key48.classList.remove('keyUp')
+      };
+      if(event.key === "m"){
+        key49.classList.remove('keyUp')
+      };
+      if(event.key === ","){
+        key50.classList.remove('keyUp')
+      };
+      if(event.key === "."){
+        key51.classList.remove('keyUp')
+      };
+      if(event.key === "/"){
+        key52.classList.remove('keyUp')
+      };
+      if(event.key === "ArrowUp"){
+        key53.classList.remove('keyUp')
+      };
+      if(event.code === "ShiftRight"){
+        key54.classList.remove('keyUp')
+      };
+      if(event.code === "ControlLeft"){
+        key55.classList.remove('keyUp')
+      };
+      if(event.code === "MetaLeft"){
+        key56.classList.remove('keyUp')
+      };
+      if(event.code === "AltLeft"){
+        key57.classList.remove('keyUp')
+      };
+      if(event.code === "Space"){
+        key58.classList.remove('keyUp')
+      };
+      if(event.code === "AltRight"){
+        key59.classList.remove('keyUp')
+      };
+      if(event.code === "ArrowLeft"){
+        key60.classList.remove('keyUp')
+      };
+      if(event.code === "ArrowDown"){
+        key61.classList.remove('keyUp')
+      };
+      if(event.code === "ArrowRight"){
+        key62.classList.remove('keyUp')
+      };
+      if(event.code === "ControlRight"){
+        key63.classList.remove('keyUp')
+      };
+      });
+  
+
+
   if(event.key === "Backspace"){
     textArea.removeChild(textArea.lastChild);
   }
