@@ -1,0 +1,117 @@
+.main{
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1400px;
+    height: 700px;
+}
+.main-tittle{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-size: 40px;
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+}
+.main-area{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 60%;
+    height: 40%;
+    display: flex;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.main-keyboard{
+    width: 60%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: grey;
+}
+.row{
+    width: 98%;
+    height: 54px;
+    display: flex;
+    margin: 5px auto;
+}
+.keyboard--key{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 5px;
+    width: 54px;
+    height: 48px;
+    background-color: silver;
+}
+.backspace,
+.caps,
+.shiftLeft{
+    background-color: black;
+    width: 125px;
+}
+.tab,
+.del{
+    width: 70px;
+    background-color: black;
+}
+.enter,
+.shiftRight{
+    background-color: black;
+    width: 110px;
+}
+.arrowUp,
+.arrowDown,
+.arrowLeft,
+.arrowRight,
+.altLeft,
+.altRight,
+.win,
+.ctrlLeft,
+.ctrlRight{
+    background-color: black;
+}
+.space{
+    width: 500px;
+}
+.key{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.keyBackspace{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.keyUp{
+    transition: 0.5s;
+    background-color: #c1caca;
+    border-radius: 100px;
+}
+.keyboard--key,
+.space
+ :hover{
+    cursor: pointer;
+}
+.keyDown{
+    transition: 0.5s;
+    background-color: #85c9d3;
+    border-radius: 100px;
+}
