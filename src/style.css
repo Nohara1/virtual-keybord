@@ -103,12 +103,16 @@
 }
 .keyUp{
     transition: 0.5s;
+    background-color: #c1caca;
+    border-radius: 100px;
+}
+.keyboard--key,
+.space
+ :hover{
+    cursor: pointer;
+}
+.keyDown{
+    transition: 0.5s;
     background-color: #85c9d3;
     border-radius: 100px;
 }
-/* .keyboard--key :hover{
-    background-color: #85c9d3;
-    transition: 0.1s;
-    background-color: #85c9d3;
-    border-radius: 10px;
-} */

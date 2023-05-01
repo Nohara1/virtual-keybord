@@ -184,7 +184,7 @@ nine.innerHTML = '9';
 key10.appendChild(nine);
 const zero = document.createElement('span');
 zero.className = 'key';
-zero.innerHTML = '7';
+zero.innerHTML = '0';
 key11.appendChild(zero);
 const minuses = document.createElement('span');
 minuses.className = 'key';
@@ -392,6 +392,11 @@ ctrlR.innerHTML = "Ctrl";
 key63.appendChild(ctrlR);
 
 
+  const znach = ['`', '1', '2','3','4','5','6','7','8','9','0','-','=',''];
+  const znach2 = ['','q','w','e','r','t','y','u','i','o','p','[',']',''];
+  const znach3 = ['','a','s','d','f','g','h','j','k','l',';',"'",''];
+  const znach4 = ['','z','x','c','v','b','n','m',',','.','/','↑',''];
+  const znach5 = ['','','',' ','','←','↓','→',''];
 
   const keys5 = [key55,key56,key57,key58,
     key59,key60,key61,key62,key63,];
@@ -408,25 +413,102 @@ key63.appendChild(ctrlR);
   
   for(let i = 0; i < keys.length; i++){
   keys[i].addEventListener('mouseover', () =>{
-    keys[i].classList.add('keyUp')
+    keys[i].classList.add('keyUp');
+    
+  });
+  keys[i].addEventListener('mousedown', () =>{
+    keys[i].classList.add('keyDown');
   });
 };
 for(let i = 0; i < keys.length; i++){
   keys[i].addEventListener('mouseout', () =>{
-    keys[i].classList.remove('keyUp')
+    keys[i].classList.remove('keyUp');
+    keys[i].classList.remove('keyDown');
   });
 };
 for(let i = 0; i < keys2.length; i++){
   keys2[i].addEventListener('mouseover', () =>{
     keys2[i].classList.add('keyUp')
   });
+  keys2[i].addEventListener('mousedown', () =>{
+    keys2[i].classList.add('keyDown');
+  });
 };
 for(let i = 0; i < keys2.length; i++){
   keys2[i].addEventListener('mouseout', () =>{
-    keys2[i].classList.remove('keyUp')
+    keys2[i].classList.remove('keyUp');
+    keys2[i].classList.remove('keyDown');
   });
 };
-
+for(let i = 0; i < keys3.length; i++){
+  keys3[i].addEventListener('mouseover', () =>{
+    keys3[i].classList.add('keyUp')
+  });
+  keys3[i].addEventListener('mousedown', () =>{
+    keys3[i].classList.add('keyDown');
+  });
+};
+for(let i = 0; i < keys3.length; i++){
+  keys3[i].addEventListener('mouseout', () =>{
+    keys3[i].classList.remove('keyUp');
+    keys3[i].classList.remove('keyDown');
+  });
+};
+for(let i = 0; i < keys4.length; i++){
+  keys4[i].addEventListener('mouseover', () =>{
+    keys4[i].classList.add('keyUp')
+  });
+  keys4[i].addEventListener('mousedown', () =>{
+    keys4[i].classList.add('keyDown');
+  });
+};
+for(let i = 0; i < keys4.length; i++){
+  keys4[i].addEventListener('mouseout', () =>{
+    keys4[i].classList.remove('keyUp');
+    keys4[i].classList.remove('keyDown');
+  });
+};
+for(let i = 0; i < keys5.length; i++){
+  keys5[i].addEventListener('mouseover', () =>{
+    keys5[i].classList.add('keyUp')
+  });
+  keys5[i].addEventListener('mousedown', () =>{
+    keys5[i].classList.add('keyDown');
+  });
+};
+for(let i = 0; i < keys5.length; i++){
+  keys5[i].addEventListener('mouseout', () =>{
+    keys5[i].classList.remove('keyUp');
+    keys5[i].classList.remove('keyDown');
+  });
+};
+  for(let i = 0; i < keys.length; i++){
+      keys[i].addEventListener('click', () =>{
+        textArea.appendChild(document.createTextNode(znach[i]));
+      });
+  };
+  for(let i = 0; i < keys2.length; i++){
+      keys2[i].addEventListener('click', () =>{
+        textArea.appendChild(document.createTextNode(znach2[i]));
+      });
+    };
+    for(let i = 0; i < keys3.length; i++){
+      keys3[i].addEventListener('click', () =>{
+        textArea.appendChild(document.createTextNode(znach3[i]));
+      });
+    };
+    for(let i = 0; i < keys4.length; i++){
+      keys4[i].addEventListener('click', () =>{
+        textArea.appendChild(document.createTextNode(znach4[i]));
+      });
+    };
+    for(let i = 0; i < keys5.length; i++){
+      keys5[i].addEventListener('click', () =>{
+        textArea.appendChild(document.createTextNode(znach5[i]));
+      });
+    }
+  
+  
 
   const main = document.createElement('div');
   const mainTittle = document.createElement('p');
